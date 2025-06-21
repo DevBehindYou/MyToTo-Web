@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>MyToDo</title>
+  <link rel="icon" type="image/png" href="assets/to-do-list.png" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="todo-app">
+      <div class="popup-message" id="popup">
+      <p>Please enter a task!</p>
+      </div>
+      <h2 class="app-title">
+      <span>MyToDo</span>
+      <img src="assets/to-do-list.png" alt="To-do icon" />
+      <span class="version-label">Lite v1.7.2</span>
+      </h2>
+      <div class="row">
+        <input type="text" id="input-box" placeholder="Add your task" aria-label="Task input field"/>
+        <button onclick="addTask()" aria-label="Add task">+</button>
+      </div>
+      <ul id="list-container"></ul>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
