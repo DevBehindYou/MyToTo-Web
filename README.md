@@ -4,9 +4,13 @@
 
 A simple, responsive, and modern To-Do List app built using **HTML**, **CSS**, and **JavaScript**. This app allows users to add, complete, and delete tasks, with localStorage support to retain data between sessions.
 
-## 🌐 Now Live
+## 🌐 WebApp Now Live
 
-👉 [Open MyToDo App]()
+👉 [Open MyToDo WebApp](https://mytodo-local.netlify.app/)
+
+## 📱 Android Version Launched
+
+👉 [Download MyToDo Android App](https://github.com/DevBehindYou/MyToDo/releases/tag/v1.0)
 
 
 ## 🚀 Features
@@ -57,6 +61,32 @@ A simple, responsive, and modern To-Do List app built using **HTML**, **CSS**, a
 │ ├── square.png
 │ ├── check.png
 │ └── favicon.ico
+```
+
+## 🛠️ PROJECT ROADMAP
+
+```text
+📁 Completed
+├── Web app built using HTML, CSS, and JavaScript
+├── Task add/delete/complete with localStorage
+├── Popup-based input validation (replaces alert)
+├── Minimal UI for distraction-free use
+└── Android version released with same features  
+    🔗 https://github.com/DevBehindYou/MyToDo/releases/tag/v1.0
+
+📁 Ongoing
+├── Improve Web + Android UI consistency
+├── Add task filters (All / Active / Completed)
+├── Optimize Android app performance
+└── Web accessibility & keyboard navigation
+
+📁 Future Plans
+├── Cloud storage with end-to-end encryption
+├── User login (OAuth or email-based)
+├── Cross-platform sync (Web + Android)
+├── Backup/restore with optional account system
+├── Push notifications for task reminders
+└── Biometric login (Android)
 ```
 
 ## 🔧 Setup Instructions
