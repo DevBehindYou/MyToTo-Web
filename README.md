@@ -59,6 +59,32 @@ A simple, responsive, and modern To-Do List app built using **HTML**, **CSS**, a
 │ └── favicon.ico
 ```
 
+## 🛠️ PROJECT ROADMAP
+
+```text
+📁 Completed
+├── Web app built using HTML, CSS, and JavaScript
+├── Task add/delete/complete with localStorage
+├── Popup-based input validation (replaces alert)
+├── Minimal UI for distraction-free use
+└── Android version released with same features  
+    🔗 https://github.com/DevBehindYou/MyToDo/releases/tag/v1.0
+
+📁 Ongoing
+├── Improve Web + Android UI consistency
+├── Add task filters (All / Active / Completed)
+├── Optimize Android app performance
+└── Web accessibility & keyboard navigation
+
+📁 Future Plans
+├── Cloud storage with end-to-end encryption
+├── User login (OAuth or email-based)
+├── Cross-platform sync (Web + Android)
+├── Backup/restore with optional account system
+├── Push notifications for task reminders
+└── Biometric login (Android)
+```
+
 ## 🔧 Setup Instructions
 
 1. Clone the repository:
