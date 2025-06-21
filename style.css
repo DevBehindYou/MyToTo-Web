@@ -161,3 +161,66 @@ ul li span:hover {
   background: #ececec;
   color: #002765;
 }
+
+/* ✅ Mobile & Tablet Responsiveness */
+@media (max-width: 768px) {
+  .todo-app {
+    margin: 30px 15px;
+    padding: 30px 20px 50px;
+  }
+
+  .todo-app h2 {
+    font-size: 20px;
+  }
+
+  .todo-app h2 img {
+    width: 30px;
+  }
+
+  .version-label {
+    font-size: 10px;
+    padding: 2px 6px;
+  }
+
+  .row {
+    flex-direction: row;
+    padding-left: 15px;
+  }
+
+  input {
+    font-size: 14px;
+    padding: 10px 8px;
+  }
+
+  button {
+    padding: 14px 20px;
+    font-size: 16px;
+  }
+
+  ul li {
+    font-size: 14px;
+    padding: 10px 8px 10px 50px;
+  }
+
+  ul li::before {
+    height: 20px;
+    width: 20px;
+    top: 10px;
+    left: 15px;
+  }
+
+  ul li span {
+    width: 26px;
+    height: 26px;
+    font-size: 18px;
+    line-height: 26px;
+    top: 8px;
+    right: 15px;
+  }
+
+  .popup-message {
+    font-size: 13px;
+    padding: 6px 14px;
+    top: 8px;
+  }
+}
