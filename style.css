@@ -55,6 +55,8 @@
   padding: 40px 30px 70px;
   background: #fff;
   border-radius: 10px;
+  background-color: #ffffff !important;
+  color: #000000;
 }
 
 .todo-app h2 {
@@ -162,7 +164,7 @@ ul li span:hover {
   color: #002765;
 }
 
-/* ✅ Mobile & Tablet Responsiveness */
+/* Mobile & Tablet Responsiveness */
 @media (max-width: 768px) {
   .todo-app {
     margin: 30px 15px;
@@ -281,4 +283,26 @@ ul li span:hover {
     top: 5px;
   }
 }
+
+@media (max-width: 320px) {
+  .row {
+    flex-direction: column;
+    padding: 10px;
+    gap: 10px;
+  }
+
+  input {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+  }
+
+  button {
+    width: 100%;
+    padding: 12px 0;
+    font-size: 16px;
+    border-radius: 12px;
+  }
+}
+
 
