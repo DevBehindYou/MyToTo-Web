@@ -1,4 +1,6 @@
-# ✅ MyToDo - Lightweight To-Do List Web App
+# MyToDo - Lightweight To-Do List Web App
+
+![demo](https://github.com/user-attachments/assets/195651fc-7fdb-45b3-a3f4-32814ef6fe40)
 
 A simple, responsive, and modern To-Do List app built using **HTML**, **CSS**, and **JavaScript**. This app allows users to add, complete, and delete tasks, with localStorage support to retain data between sessions.
 
